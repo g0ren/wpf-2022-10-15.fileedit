@@ -25,6 +25,7 @@ namespace _10._15.fileedit
                     stringBuilder.AppendLine(line);
                 }
                 textBox1.Text = stringBuilder.ToString();
+                button2.Enabled = true;
             }
         }
 
